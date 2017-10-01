@@ -27,10 +27,40 @@ void bubble_sort(std::vector<int> &vet) {
     }
 }
 
+/*
 void bucket_sort(std::vector<int> &vet) {}
 void insertion_sort(std::vector<int> &vet) {}
 void merge_sort(std::vector<int> &vet) {}
-void quick_sort(std::vector<int> &vet) {}
+*/
+
+void quick_sort(std::vector<int> &vet, int first, int final) {
+    int i, j, pivot, center;
+    i = first;
+    j = final;
+    center = (first + final) / 2;
+    pivot = vet[center];
+    sview.show(vet, {i, j, center}, "gbr");
+    while(i < j) {
+        while(vet[i] < pivot) {
+            i++;
+            sview.show(vet, {i, j, center}, "gbr");
+        }
+        while(vet[j] > pivot) {
+            j--;
+            sview.show(vet, {i, j, center}, "gbr");
+        }
+        if (i <= j) {
+            sview.show(vet, {i, j, center}, "gbr");
+            std::swap(vet[i], vet[j]);
+            i++;
+            j--;
+        }
+    }
+    if (j > first)
+        quick_sort(vet, first, j);
+    if(i < final)
+        quick_sort(vet, i, final);
+}
 
 void minimum_sort(std::vector<int> &vet){
     int tam = vet.size();
@@ -64,8 +94,10 @@ int main_sorts(){
 
     std::vector<int> vet = init_vet(70, 50, 300);
 
+    int tam = vet.size();
     //minimum_sort(vet);
-    bubble_sort(vet);
+    //bubble_sort(vet);
+    quick_sort(vet, 0, tam - 1);
 
     my_player->wait();
     return 0;
