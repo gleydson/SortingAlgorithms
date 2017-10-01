@@ -27,6 +27,11 @@ void bubble_sort(std::vector<int> &vet) {
     }
 }
 
+void bucket_sort(std::vector<int> &vet) {}
+void insertion_sort(std::vector<int> &vet) {}
+void merge_sort(std::vector<int> &vet) {}
+void quick_sort(std::vector<int> &vet) {}
+
 void minimum_sort(std::vector<int> &vet){
     int tam = vet.size();
     for(int i = 0; i < tam - 1; i++){
@@ -59,7 +64,7 @@ int main_sorts(){
     std::vector<int> vet = init_vet(70, 50, 300);
 
     //minimum_sort(vet);
-    bubble_sort(vet);
+    //bubble_sort(vet);
 
     my_player->wait();
     return 0;
