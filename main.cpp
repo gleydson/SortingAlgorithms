@@ -58,13 +58,14 @@ std::vector<int> init_vet(int qtd, int min, int max){
 int main_sorts(){
     srand(time(NULL));
     my_player->autoplay = true;
+    //sview.set_dot_view();
     sview.set_bar_view();
     sview.set_thickness(8);
 
     std::vector<int> vet = init_vet(70, 50, 300);
 
     //minimum_sort(vet);
-    //bubble_sort(vet);
+    bubble_sort(vet);
 
     my_player->wait();
     return 0;
