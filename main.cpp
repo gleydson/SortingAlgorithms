@@ -1,9 +1,7 @@
 #include <iostream>
 #include <ctime>
-#include <cstdlib> //rand
+#include <cstdlib>
 #include "libs/ed_sort.h"
-
-using namespace std;
 
 //cores rgbcymkw
 //red, green, blue, cyan, yellow, magenta, black, white
@@ -94,7 +92,7 @@ int main()
     view_set_faixa(0, qtd - 1);
 
     //minimum_sort(vet);
-    quick_sort(vet, 0, vet.size());
+    //quick_sort(vet, 0, vet.size());
     //bubble_sort(vet);
 
     view_lock();
