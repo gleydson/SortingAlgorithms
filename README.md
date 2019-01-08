@@ -4,8 +4,6 @@ This repository contains the implementation of several sorting algorithms.
 
 The algorithms were constructed using the C++ language, in conjunction with a graphical library developed with [SFML](https://www.sfml-dev.org/) for visualization at runtime of the operation of the algorithms.
 
-The library was developed by [Professor David Sena](https://www.quixada.ufc.br/docente/david-sena-oliveira/) ([UFC](http://www.ufc.br/)).
-
 ## How to run
 
 After doing the project clone, download the sfml library to your computer.
