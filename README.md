@@ -8,7 +8,7 @@ The algorithms were constructed using the C++ language, in conjunction with a gr
 
 ## How to run
 
-After doing the project clone, download the sfml library to your computer.
+After doing the project clone, download the sfml library to your computer (only debian/ubuntu OS, check this [link](https://www.sfml-dev.org/) for other OS).
 
 ```shell
 $ sudo apt install libsfml-dev
