@@ -18,14 +18,14 @@ void minimum_sort(vector<int> &vet)
             view_show(vet, {i, j}, "gy");
             if (vet[j] < vet[i])
             {
-                std::swap(vet[i], vet[j]);
+                swap(vet[i], vet[j]);
                 view_show(vet, {i, j}, "yg");
             }
         }
     }
 }
 
-void bubble_sort(std::vector<int> &vet)
+void bubble_sort(vector<int> &vet)
 {
     int tam = vet.size();
     int flag = 0;
@@ -37,7 +37,7 @@ void bubble_sort(std::vector<int> &vet)
             if (vet[j] < vet[i])
             {
                 view_show(vet, {i, j}, "rb");
-                std::swap(vet[i], vet[j]);
+                swap(vet[i], vet[j]);
                 view_show(vet, {i, j}, "cb");
             }
         }
@@ -45,7 +45,7 @@ void bubble_sort(std::vector<int> &vet)
     }
 }
 
-void quick_sort(std::vector<int> &vet, int first, int final)
+void quick_sort(vector<int> &vet, int first, int final)
 {
     int i, j, pivot, center;
     i = first;
