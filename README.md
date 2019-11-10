@@ -1,8 +1,6 @@
 # Sorting Algorithms
 
-```md
-![badge](https://action-badges.now.sh/gleydson/SortingAlgorithms)
-```
+<a href="https://action-badges.now.sh"><img src="https://action-badges.now.sh/gleydson/SortingAlgorithms" /></a>
 
 This repository contains the implementation of several sorting algorithms.
 
