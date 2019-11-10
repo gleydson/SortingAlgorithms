@@ -1,6 +1,7 @@
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
+#include <vector>
 #include "libs/ed_sort.h"
 
 //cores rgbcymkw
