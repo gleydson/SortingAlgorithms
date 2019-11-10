@@ -8,5 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: install sfml
+      run: sudo apt install libsfml-dev
     - name: make
-      run: make
+      run: make 
