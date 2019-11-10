@@ -7,6 +7,8 @@
 //cores rgbcymkw
 //red, green, blue, cyan, yellow, magenta, black, white
 
+using namespace std;
+
 void minimum_sort(vector<int> &vet)
 {
     for (int i = 0; i < (int)vet.size() - 1; i++)
