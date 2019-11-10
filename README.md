@@ -1,5 +1,9 @@
 # Sorting Algorithms
 
+```md
+![badge](https://action-badges.now.sh/gleydson/SortingAlgorithms)
+```
+
 This repository contains the implementation of several sorting algorithms.
 
 The algorithms were constructed using the C++ language, in conjunction with a graphical library developed with [SFML](https://www.sfml-dev.org/) for visualization at runtime of the operation of the algorithms.
