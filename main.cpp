@@ -94,9 +94,9 @@ int main()
     view_set_bar();
     view_set_faixa(0, qtd - 1);
 
-    //minimum_sort(vet);
-    //quick_sort(vet, 0, vet.size());
-    //bubble_sort(vet);
+    // minimum_sort(vet);
+    quick_sort(vet, 0, vet.size());
+    // bubble_sort(vet);
 
     view_lock();
     return 0;
