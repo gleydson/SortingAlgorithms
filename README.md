@@ -21,9 +21,9 @@ int main()
 {
     ....
 
-    //minimum_sort(vet);
-    //quick_sort(vet, 0, vet.size());
-    //bubble_sort(vet);
+    // minimum_sort(vet);
+    // quick_sort(vet, 0, vet.size());
+    // bubble_sort(vet);
 
     ....
 }
