@@ -4,8 +4,8 @@
 #include <vector>
 #include "libs/ed_sort.h"
 
-//cores rgbcymkw
-//red, green, blue, cyan, yellow, magenta, black, white
+// cores rgbcymkw
+// red, green, blue, cyan, yellow, magenta, black, white
 
 using namespace std;
 
