@@ -1,6 +1,6 @@
 # Sorting Algorithms
 
-<a href="https://action-badges.now.sh"><img src="https://action-badges.now.sh/gleydson/SortingAlgorithms" /></a>
+[![C/C++ CI](https://github.com/gleydson/SortingAlgorithms/actions/workflows/ccpp.yml/badge.svg)](https://github.com/gleydson/SortingAlgorithms/actions/workflows/ccpp.yml)
 
 This repository contains the implementation of several sorting algorithms.
 
